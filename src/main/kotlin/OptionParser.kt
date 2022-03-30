@@ -1,3 +1,3 @@
-interface OptionParser<T> {
-    fun parse(args: Array<out String>, option: Option): T
+fun interface OptionParser<T> {
+    fun parse(args: Array<String>, option: Option): T
 }
